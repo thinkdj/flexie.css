@@ -12,6 +12,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 @import "elements/reset.css";
 
+/* uncomment as needed * /
+@import "elements/typography.css";
+@import "elements/forms.css";
+
+@import "laravel/pagination-laravel.css";
+*/
 
 .reset-m { margin:0 }
 .reset-p { padding:0 }

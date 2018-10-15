@@ -1,0 +1,57 @@
+/*
+Import Google Fonts here
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans|Great+Vibes");
+*/
+
+html, 
+.font-body
+{
+    font-family: "Work Sans", "Proxima Nova", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, 
+.font-head 
+{
+    font-family: "Work Sans", Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.875em;
+}
+@media (max-width: 1199px) {
+    body {
+        font-size: 17px;
+    }
+}
+@media (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+p {
+    font-size: 1.02rem;
+    line-height: 1.875em;
+}
+
+small { font-size: 0.9rem; line-height: 1.2rem }
+
+h1 { font-size: 2rem }
+h2 { font-size: 1.75rem }
+h3 { font-size: 1.5rem }
+h4 { font-size: 1.25rem }
+h5 { font-size: 1.1rem }
+h6 { font-size: 1.05rem }
+
+h1,h2,h3,h4,h5,h6 {font-weight: bold;line-height: 1.86rem }
+
+b, strong {
+    font-weight: 700;
+}
+
+code {
+    display: block;
+    unicode-bidi: embed;
+    font-family: monospace;
+    white-space: pre;
+}
