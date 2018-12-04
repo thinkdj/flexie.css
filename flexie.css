@@ -12,12 +12,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 @import "elements/reset.css";
 
-/* uncomment as needed * /
+/* uncomment as needed */
 @import "elements/typography.css";
 @import "elements/forms.css";
 
 @import "laravel/pagination-laravel.css";
-*/
+/* */
 
 .reset-m { margin:0 }
 .reset-p { padding:0 }
@@ -25,6 +25,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .reset-bg { background: none }
 .reset-bg-img {background-image: none }
 .reset-box-shadow { box-shadow: none }
+
+.reset-m-force { margin:0 !important}
+.reset-p-force { padding:0 !important}
+.reset-pm-force { margin:0 !important; padding:0 !important}
+.reset-bg-force { background: none !important}
+.reset-bg-img-force {background-image: none !important}
+.reset-box-shadow-force { box-shadow: none !important}
 
 .f-r {float: right}
 .f-l {float: left}
@@ -42,7 +49,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .p-60 {padding: 60px}
 .p-80 {padding: 80px}
 
-.p-t-0 {padding-top: 0 !important}
+.p-0-force { padding: 0 !important }
+.p-5-force { padding: 5px !important }
+.p-10-force { padding: 10px !important }
+.p-20-force { padding: 20px !important }
+
+.p-t-0-force {padding-top: 0 !important}
+.p-t-0 {padding-top: 0}
 .p-t-5 {padding-top: 5px}
 .p-t-10 {padding-top: 10px}
 .p-t-15 {padding-top: 15px}
@@ -52,13 +65,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .p-t-50 {padding-top: 50px}
 .p-t-100 {padding-top: 100px}
 
-.p-r-0 {padding-right: 0 !important}
+.p-r-0-force {padding-right: 0 !important}
+.p-r-0 {padding-right: 0}
 .p-r-10 {padding-right: 10px}
 .p-r-20 {padding-right: 20px}
 .p-r-30 {padding-right: 30px}
 .p-r-40 {padding-right: 40px}
 
-.p-b-0 {padding-bottom: 0 !important}
+.p-b-0-force {padding-bottom: 0 !important}
+.p-b-0 {padding-bottom: 0}
 .p-b-5 {padding-bottom: 5px}
 .p-b-10 {padding-bottom: 10px}
 .p-b-15 {padding-bottom: 15px}
@@ -68,7 +83,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .p-b-50 {padding-bottom: 50px}
 .p-b-100 {padding-bottom: 100px}
 
-.p-l-0 {padding-left: 0 !important}
+.p-l-0-force {padding-left: 0 !important}
+.p-l-0 {padding-left: 0}
 .p-l-10 {padding-left: 10px}
 .p-l-20 {padding-left: 20px}
 .p-l-30 {padding-left: 30px}
@@ -87,7 +103,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .p-t-b-10 { padding-top:10px; padding-bottom: 10px }
 .p-t-b-20 { padding-top:20px; padding-bottom: 20px }
 
-.m-0 { margin:0 !important }
+.m-0-force { margin:0 !important }
+.m-0 { margin:0 }
 .m-10 {margin: 10px}
 .m-15 {margin: 15px}
 .m-20 {margin: 20px}
@@ -98,7 +115,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .m-60 {margin: 60px}
 .m-100 {margin: 100px}
 
-.m-0-auto {margin: 0 auto !important}
+.m-0-auto-force {margin: 0 auto !important}
+.m-0-auto {margin: 0 auto}
 .m-10-auto {margin: 10px auto}
 .m-20-auto {margin: 20px auto}
 .m-30-auto {margin: 30px auto}
@@ -106,7 +124,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .m-50-auto {margin: 50px auto}
 .m-40-auto {margin: 40px auto}
 
-.m-t-0 {margin-top: 0 !important}
+.m-t-0-force {margin-top: 0 !important}
+.m-t-0 {margin-top: 0}
 .m-t-5 {margin-top: 5px }
 .m-t-10 {margin-top: 10px }
 .m-t-15 {margin-top: 15px }
@@ -118,7 +137,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .m-t-60 {margin-top: 60px }
 .m-t-100{margin-top: 100px }
 
-.m-b-0 {margin-bottom: 0 !important}
+.m-b-0-force {margin-bottom: 0 !important}
+.m-b-0 {margin-bottom: 0}
 .m-b-5 {margin-bottom: 5px }
 .m-b-10 {margin-bottom: 10px }
 .m-b-15 {margin-bottom: 15px }
@@ -156,13 +176,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .m-t-b-60 { margin-top: 60px; margin-bottom: 60px }
 .m-t-b-100 { margin-top: 100px; margin-bottom: 100px }
 
-.m-l-0 {margin-left: 0 !important}
+.m-l-0-force {margin-left: 0 !important}
+.m-l-0 {margin-left: 0}
 .m-l-5 {margin-left: 5px }
 .m-l-10 {margin-left: 10px }
 .m-l-15 {margin-left: 15px }
 .m-l-20 {margin-left: 20px }
 
-.m-r-0 { margin-right: 0 !important }
+.m-r-0-force { margin-right: 0 !important }
+.m-r-0 { margin-right: 0 }
 .m-r-5 { margin-right: 5px }
 .m-r-10 { margin-right: 10px }
 .m-r-15 { margin-right: 15px }
@@ -324,7 +346,10 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
 
 .flex { display: flex }
+.flex-force { display: flex !important }
+
 .flex-inline { display: inline-flex }
+.flex-inline-force { display: inline-flex !important }
 
 .flex-dir-row, .flex-dir-horiz {flex-direction: row}
 .flex-dir-row-rev, .flex-dir-horiz-rev {flex-direction: row-reverse}
