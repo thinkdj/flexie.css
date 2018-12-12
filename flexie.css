@@ -411,6 +411,9 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 .flex-order-9 { order:9 }
 .flex-order-10 { order:10 }
 
+/* The flex-grow CSS property sets how much of the available space in the flex container should be assigned to that item (the flex grow factor)
+   flex-grow: number|initial|inherit;
+*/
 .flex-grow-0 { flex-grow:0 /* default */ }
 .flex-grow-1 { flex-grow:1 }
 .flex-grow-2 { flex-grow:2 }
@@ -422,6 +425,18 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 .flex-grow-8 { flex-grow:8 }
 .flex-grow-9 { flex-grow:9 }
 .flex-grow-10 { flex-grow:10 }
+
+/* The flex-basis property specifies the initial length of a flexible item
+   flex-basis: number [length unit or %]|auto|initial|inherit;
+ */
+.flex-basis-auto { flex-basis:auto /* default */ }
+.flex-basis-0 { flex-basis:0 }
+.flex-basis-20pc { flex-basis:20% }
+.flex-basis-25pc { flex-basis:25% }
+.flex-basis-33pc { flex-basis:33.33% }
+.flex-basis-50pc { flex-basis:50% }
+.flex-basis-75pc { flex-basis:75% }
+.flex-basis-80pc { flex-basis:80% }
 
 .flex-wrap { flex-wrap:wrap }
 
@@ -449,6 +464,21 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     min-height: 100%;
     /*min-height: 100vh;*/
     align-items: center;
+}
+
+/* Auto Grid - Use for forms */
+.flexie-auto-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexie-auto-grid div {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding-right: 20px; /* Change based on your desired grid-gap */
+}
+.flexie-auto-grid div:last-child {
+    padding-right: 0;
 }
 
 /* Grid Generic */
