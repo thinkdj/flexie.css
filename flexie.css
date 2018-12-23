@@ -472,12 +472,12 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     justify-content: space-between;
     align-items: center;
 }
-.flexie-auto-grid div {
+.flexie-auto-grid > div {
     flex-basis: 0;
     flex-grow: 1;
     padding-right: 20px; /* Change based on your desired grid-gap */
 }
-.flexie-auto-grid div:last-child {
+.flexie-auto-grid > div:last-child {
     padding-right: 0;
 }
 
