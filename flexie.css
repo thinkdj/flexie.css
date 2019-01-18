@@ -3,7 +3,7 @@
 flexie.css
 Description: flexie.css enables you to rapidly make modern web pages
 URI: https://think.dj/projects/flexie.css/
-Version: v1.1
+Version: v1.2
 Author: thinkdj
 Author URI: https://think.dj/
 License: GNU General Public License v2.0
@@ -211,6 +211,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .b-dash { border-style: dashed }
 .b-dot { border-style: dotted }
 
+.outline-0 { outline: none }
+.outline-0-force { outline: none !important }
 
 .b-r-2 {border-radius: 2px}
 .b-r-3 {border-radius: 3px}
@@ -286,6 +288,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .w-80-pc { width:80% }
 .w-90-pc { width:90% }
 .w-100-pc { width:100% }
+.w-100-pc-force { width:100% !important; }
 .w-max-100-pc {max-width: 100% !important;}
 .w-max-1020-px {max-width: 1024px !important;}
 .w-max-1100-px {max-width: 1100px !important;}
@@ -552,6 +555,7 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     vertical-align: middle;
 }
 
+.underline-0 { text-decoration: none }
 .hover-underline:hover { text-decoration: underline }
 .hover-underline-0:hover { text-decoration: none }
 
@@ -564,6 +568,7 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 .shad-spread-on-hover:hover { box-shadow: 0 0 90px rgba(150,172,214,0.64) }
 .shad-raised-on-hover:hover { box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3) }
 
+.bg-transp {background-color: transparent }
 .bg-white {background-color: #FFF}
 .bg-grey-light,.bg-grey-F8 {background-color: #F8F8F8}
 .bg-blue {background-color: #188EF4; /*#21AEE4*/}
