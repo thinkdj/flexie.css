@@ -349,6 +349,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 .obj-fit-cover {object-fit: cover}
 
+.ovf-0 { overflow: hidden }
+.ovf-1 { overflow: visible }
+
 /* FLEXGRID
 ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
