@@ -173,7 +173,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .m-b-neg-50 {margin-bottom: -50px }
 .m-b-neg-100 {margin-bottom: -100px }
 
+.m-t-b-5 { margin-top: 5px; margin-bottom: 5px }
 .m-t-b-10 { margin-top: 10px; margin-bottom: 10px }
+.m-t-b-15 { margin-top: 15px; margin-bottom: 15px }
 .m-t-b-20 { margin-top: 20px; margin-bottom: 20px }
 .m-t-b-30 { margin-top: 30px; margin-bottom: 30px }
 .m-t-b-40 { margin-top: 40px; margin-bottom: 40px }
@@ -490,6 +492,20 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 /* Grid Generic */
 
 .grid {display: grid}
+
+.grid-10-auto { grid-template-columns: 10% auto }
+.grid-20-auto { grid-template-columns: 20% auto }
+.grid-40-auto { grid-template-columns: 40% auto }
+.grid-60-auto { grid-template-columns: 60% auto }
+.grid-80-auto { grid-template-columns: 80% auto }
+.grid-90-auto { grid-template-columns: 90% auto }
+.grid-auto-10 { grid-template-columns: auto 10% }
+.grid-auto-20 { grid-template-columns: auto 20% }
+.grid-auto-40 { grid-template-columns: auto 40% }
+.grid-auto-60 { grid-template-columns: auto 60% }
+.grid-auto-80 { grid-template-columns: auto 80% }
+.grid-auto-90 { grid-template-columns: auto 90% }
+
 .grid-200-auto {grid-template-columns: 200px auto}
 .grid-auto-200 {grid-template-columns: auto 200px}
 @media (max-width: 640px) {
@@ -512,6 +528,7 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 .grid-gap-0 {grid-gap: 0}
 .grid-gap-10 {grid-gap: 10px}
+.grid-gap-15 {grid-gap: 15px}
 .grid-gap-20 {grid-gap: 20px}
 
 @media (max-width: 1199px) {
@@ -574,6 +591,8 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 .bg-transp {background-color: transparent }
 .bg-white {background-color: #FFF}
 .bg-grey-light,.bg-grey-F8 {background-color: #F8F8F8}
+.bg-grey-e9 {background-color: #e9e9e9}
+.bg-yellow-light {background-color: rgba(255,248,220,0.75) }
 .bg-blue {background-color: #188EF4; /*#21AEE4*/}
 .bg-blue-light {background-color: #F6F7FD }
 .bg-red {background-color: #d12112}
