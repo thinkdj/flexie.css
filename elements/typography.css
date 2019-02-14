@@ -43,7 +43,7 @@ h4 { font-size: 1.25rem }
 h5 { font-size: 1.1rem }
 h6 { font-size: 1.05rem }
 
-h1,h2,h3,h4,h5,h6 {font-weight: bold;line-height: 1.86rem }
+h1,h2,h3,h4,h5,h6 {font-weight: bold; line-height: 1.86rem }
 
 b, strong {
     font-weight: 700;
@@ -55,3 +55,10 @@ code {
     font-family: monospace;
     white-space: pre;
 }
+
+
+ul { padding: 1rem 1rem 1rem 2rem }
+ul li { list-style: disc }
+
+ol { padding: 1rem 1rem 1rem 2rem }
+ol li { list-style: decimal }
