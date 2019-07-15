@@ -547,6 +547,7 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     .grid-auto-320 {grid-template-columns: auto}
 }
 
+/* Fixed Width */
 .grid-1x {grid-template-columns: repeat(1,1fr)}
 .grid-2x {grid-template-columns: repeat(2,1fr)}
 .grid-3x {grid-template-columns: repeat(3,1fr)}
@@ -554,8 +555,9 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 .grid-5x {grid-template-columns: repeat(5,1fr)}
 .grid-6x {grid-template-columns: repeat(6,1fr)}
 .grid-7x {grid-template-columns: repeat(7,1fr)}
+/* Flexible width */
 .grid-50-50 {grid-template-columns: 50% 50%}
-.grid-auto-1x {grid-template-columns: auto }
+.grid-auto-1x {grid-template-columns: auto}
 .grid-auto-2x {grid-template-columns: auto auto}
 .grid-auto-3x {grid-template-columns: auto auto auto}
 .grid-auto-4x {grid-template-columns: auto auto auto auto}
@@ -599,9 +601,11 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 .cur-disabled,.cur-disabled:hover {cursor: not-allowed}
 
 .text-t-lower { text-transform: lowercase }
-.text-t-caps { text-transform: capitalize }
 .text-t-upp { text-transform: uppercase }
 .text-t-none { text-transform: none }
+/* Capitalization hack */
+.text-t-capitalize { display: inline-block; text-transform: lowercase }
+.text-t-capitalize:first-letter { text-transform: uppercase }
 
 .text-a-left { text-align: left }
 .text-a-right { text-align: right }
