@@ -371,6 +371,13 @@ a, a:visited, a:hover, a:active {
 
 .opa-050 { opacity: 0.5 }
 
+/* Text */
+.txt-ovf-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 /* FLEXGRID
 ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
