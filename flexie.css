@@ -528,6 +528,11 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 .grid {display: grid}
 
+.grid-gap-0 {grid-gap: 0}
+.grid-gap-10 {grid-gap: 10px}
+.grid-gap-15 {grid-gap: 15px}
+.grid-gap-20 {grid-gap: 20px}
+
 .grid-10-auto { grid-template-columns: 10% auto }
 .grid-20-auto { grid-template-columns: 20% auto }
 .grid-40-auto { grid-template-columns: 40% auto }
@@ -562,6 +567,10 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 .grid-5x {grid-template-columns: repeat(5,1fr)}
 .grid-6x {grid-template-columns: repeat(6,1fr)}
 .grid-7x {grid-template-columns: repeat(7,1fr)}
+.grid-8x {grid-template-columns: repeat(8,1fr)}
+.grid-9x {grid-template-columns: repeat(9,1fr)}
+.grid-10x {grid-template-columns: repeat(10,1fr)}
+
 /* Flexible width */
 .grid-50-50 {grid-template-columns: 50% 50%}
 .grid-auto-1x {grid-template-columns: auto}
@@ -571,11 +580,6 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 .grid-auto-5x {grid-template-columns: auto auto auto auto auto}
 .grid-auto-6x {grid-template-columns: auto auto auto auto auto auto}
 .grid-auto-7x {grid-template-columns: auto auto auto auto auto auto auto}
-
-.grid-gap-0 {grid-gap: 0}
-.grid-gap-10 {grid-gap: 10px}
-.grid-gap-15 {grid-gap: 15px}
-.grid-gap-20 {grid-gap: 20px}
 
 @media (max-width: 1199px) {
     .grid-auto-2x {grid-template-columns: auto auto}
@@ -602,6 +606,37 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     .grid-auto-7x {grid-template-columns: auto}
 }
 
+.grid-flow-row { grid-auto-flow: row }
+
+/* Responsive Grids -- 6 Breakpoints */
+
+@media (max-width: 1199px) {
+    .grid-6x-responsive { grid-template-columns: repeat(5, 1fr) }
+}
+@media (max-width: 991px) {
+    .grid-6x-responsive { grid-template-columns: repeat(4, 1fr) }
+    .grid-5x-responsive { grid-template-columns: repeat(4, 1fr) }
+    .grid-4x-responsive { grid-template-columns: repeat(3, 1fr) }
+    .grid-3x-responsive { grid-template-columns: repeat(2, 1fr) }
+}
+@media (max-width: 640px) {
+    .grid-6x-responsive { grid-template-columns: repeat(3, 1fr) }
+    .grid-5x-responsive { grid-template-columns: repeat(3, 1fr) }
+    .grid-4x-responsive { grid-template-columns: repeat(2, 1fr) }
+    .grid-3x-responsive { grid-template-columns: repeat(1, 1fr) }
+}
+@media (max-width: 480px) {
+    .grid-6x-responsive { grid-template-columns: repeat(2, 1fr) }
+    .grid-5x-responsive { grid-template-columns: repeat(2, 1fr) }
+    .grid-4x-responsive { grid-template-columns: repeat(1, 1fr) }
+}
+@media (max-width: 420px) {
+    .grid-5x-responsive { grid-template-columns: repeat(1, 1fr) }
+}
+@media (max-width: 320px) {
+    .grid-6x-responsive { grid-template-columns: repeat(1, 1fr) }
+}
+
 .trans-v {transform: translate(0,-5px)}
 
 .cur-pointer,.cur-pointer:hover, .clickable {cursor: pointer}
@@ -611,8 +646,8 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 .text-t-upp { text-transform: uppercase }
 .text-t-none { text-transform: none }
 /* Capitalization hack */
-.text-t-capitalize { display: inline-block; text-transform: lowercase }
-.text-t-capitalize:first-letter { text-transform: uppercase }
+.text-t-caps, .text-t-capitalize { display: inline-block; text-transform: lowercase }
+.text-t-caps:first-letter, .text-t-capitalize:first-letter { text-transform: uppercase }
 
 .text-a-left { text-align: left }
 .text-a-right { text-align: right }
@@ -665,5 +700,6 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 .col-red { color: #d12112}
 .col-green { color: #84AC2F}
 .col-fuschia { color: #F51C45}
+.col-orange { color: #fa8d3d }
 
 /* flexie.css -- shout@think.dj | https://think.dj */
