@@ -618,6 +618,7 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     .grid-5x-responsive { grid-template-columns: repeat(4, 1fr) }
     .grid-4x-responsive { grid-template-columns: repeat(3, 1fr) }
     .grid-3x-responsive { grid-template-columns: repeat(2, 1fr) }
+    .grid-2x-responsive { grid-template-columns: repeat(1, 1fr) }
 }
 @media (max-width: 640px) {
     .grid-6x-responsive { grid-template-columns: repeat(3, 1fr) }
