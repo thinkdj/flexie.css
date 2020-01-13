@@ -607,6 +607,7 @@ ref: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 }
 
 .grid-flow-row { grid-auto-flow: row }
+.grid-height-match { grid-auto-rows: 1fr }
 
 /* Responsive Grids -- 6 Breakpoints */
 
