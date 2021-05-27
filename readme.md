@@ -2,6 +2,8 @@
 
 A set of css classes to help you with rapid app development
 
+![Logo](.internal/logo/logo.png)
+
 
 ____________________
 
